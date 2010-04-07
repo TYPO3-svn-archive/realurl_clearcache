@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "realurl_clearcache".
 #
-# Auto generated 30-03-2010 12:21
+# Auto generated 07-04-2010 09:02
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -39,7 +39,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:10:{s:9:"ChangeLog";s:4:"a749";s:10:"README.txt";s:4:"ee2d";s:11:"be_icon.gif";s:4:"30fe";s:30:"class.tx_realurlclearcache.php";s:4:"e60b";s:40:"class.tx_realurlclearcache_cachemenu.php";s:4:"6df1";s:12:"ext_icon.gif";s:4:"71e7";s:17:"ext_localconf.php";s:4:"1df9";s:13:"locallang.xml";s:4:"9030";s:19:"doc/wizard_form.dat";s:4:"ee0b";s:20:"doc/wizard_form.html";s:4:"145e";}',
+	'_md5_values_when_last_written' => 'a:14:{s:9:"ChangeLog";s:4:"a749";s:10:"README.txt";s:4:"ee2d";s:11:"be_icon.gif";s:4:"30fe";s:16:"be_page_icon.gif";s:4:"077c";s:30:"class.tx_realurlclearcache.php";s:4:"475d";s:40:"class.tx_realurlclearcache_cachemenu.php";s:4:"8db8";s:12:"ext_icon.gif";s:4:"7d4e";s:17:"ext_localconf.php";s:4:"c5ae";s:30:"extending-clear-cache-menu.jpg";s:4:"b6e4";s:13:"locallang.xml";s:4:"e8ba";s:19:"doc/wizard_form.dat";s:4:"ee0b";s:20:"doc/wizard_form.html";s:4:"145e";s:15:"res/be_icon.gif";s:4:"6a13";s:20:"res/be_page_icon.gif";s:4:"077c";}',
 	'suggests' => array(
 	),
 );
