@@ -1,3 +1,7 @@
+2010-04-16 Sebastiaan de Jonge (SebastiaanDeJonge.com)  <szebi.eger@gmail.com>
+
+	* Fixed bug #7295: Fatal error: Interface 'backend_cacheActionsHook' not found
+
 2010-03-30 Sebastiaan de Jonge (SebastiaanDeJonge.com)  <szebi.eger@gmail.com>
 
-	* initial code generated with kickstarter
+	* Initial code generated with kickstarter

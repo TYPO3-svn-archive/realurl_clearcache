@@ -32,6 +32,7 @@
  * TOTAL FUNCTIONS: 1
  */
 
+require_once(PATH_typo3.'interfaces/interface.backend_cacheActionsHook.php');
 require_once(t3lib_extMgm::extPath('realurl_clearcache').'class.tx_realurlclearcache.php');
 
 /**
