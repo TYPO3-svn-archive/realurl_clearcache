@@ -65,4 +65,11 @@ class tx_realurlclearcache_cachemenu implements backend_cacheActionsHook {
 		}
 	}
 }
+
+/**
+ * XCLASS Inclusion
+ */
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/realurl_clearcache/class.tx_realurlclearcache_cachemenu.php'])	{
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/realurl_clearcache/class.tx_realurlclearcache_cachemenu.php']);
+}
 ?>
