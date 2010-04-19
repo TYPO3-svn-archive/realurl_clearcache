@@ -48,7 +48,6 @@ class tx_realurlclearcache {
 	public static function clear() {
 		$GLOBALS['TYPO3_DB']->sql_query('TRUNCATE TABLE tx_realurl_chashcache;');
 		$GLOBALS['TYPO3_DB']->sql_query('TRUNCATE TABLE tx_realurl_pathcache;');
-		$GLOBALS['TYPO3_DB']->sql_query('TRUNCATE TABLE tx_realurl_redirects;');
 		$GLOBALS['TYPO3_DB']->sql_query('TRUNCATE TABLE tx_realurl_uniqalias;');
 		$GLOBALS['TYPO3_DB']->sql_query('TRUNCATE TABLE tx_realurl_urldecodecache;');
 		$GLOBALS['TYPO3_DB']->sql_query('TRUNCATE TABLE tx_realurl_urlencodecache;');
