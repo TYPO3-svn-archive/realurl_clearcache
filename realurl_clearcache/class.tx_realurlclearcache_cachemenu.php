@@ -54,7 +54,7 @@ class tx_realurlclearcache_cachemenu implements backend_cacheActionsHook {
 	public function manipulateCacheActions(&$a_cacheActions, &$a_optionValues) {
 		if(($GLOBALS['BE_USER']->isAdmin() || $GLOBALS['BE_USER']->getTSConfigVal('options.clearCache.realurl')) && $GLOBALS['TYPO3_CONF_VARS']['EXT']['extCache']) {
 			$s_title = $GLOBALS['LANG']->sL('LLL:EXT:realurl_clearcache/locallang.xml:rm.clearCacheMenu_realUrlClearCache', true);
-			$s_imagePath = $GLOBALS['TYPO3_LOADED_EXT']['realurl_clearcache']['siteRelPath'].'res/';
+			$s_imagePath = t3lib_extMgm::extRelPath('realurl_clearcache').'res/';
 			if(strpos($s_imagePath,'typo3conf') !== false) $s_imagePath = '../'.$s_imagePath;
 			$a_cacheActions[] = array(
 				'id'    => 'realurl_cache',

@@ -107,7 +107,7 @@ class tx_realurlclearcache {
 		
 		// Generate our own link
 		$s_title = $GLOBALS['LANG']->sL('LLL:EXT:realurl_clearcache/locallang.xml:rm.clearRealUrlPageCache', true);
-		$s_imagePath = $GLOBALS['TYPO3_LOADED_EXT']['realurl_clearcache']['siteRelPath'].'res/';
+		$s_imagePath = t3lib_extMgm::extRelPath('realurl_clearcache').'res/';
 		if(strpos($s_imagePath,'typo3conf') !== false) $s_imagePath = '../'.$s_imagePath;
 		$s_image = '<img src="'.$s_imagePath.'be_page_icon.gif" title="'.$s_title.'" alt="'.$s_title.'" />';
 		$s_pageIconLink = '<a href="'.$s_clearCacheCmdUri.'">'.$s_image.'</a>';
