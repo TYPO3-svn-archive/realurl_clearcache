@@ -29,6 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 1,
 	'lockType' => '',
 	'author_company' => 'SebastiaanDeJonge.com',
+	'doNotLoadInFE' => 1,
 	'version' => '1.0.4',
 	'doNotLoadInFE' => 1,
 	'constraints' => array(

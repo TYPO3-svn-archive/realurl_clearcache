@@ -1,3 +1,7 @@
+2010-09-09 Sebastiaan de Jonge (SebastiaanDeJonge.com)  <szebi.eger@gmail.com>
+
+	* Added feature #9516: Add 'doNotLoadInFE' => 1 to ext_emconf.php 
+
 2010-04-23 Sebastiaan de Jonge (SebastiaanDeJonge.com)  <szebi.eger@gmail.com>
 
 	* Fixed bug #7439: Bad icon display on global installation
